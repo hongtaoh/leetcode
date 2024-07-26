@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Array 101 &#8212; My sample book</title>
+    <title>Arrays 101 &#8212; My sample book</title>
   
   
   
@@ -170,7 +170,7 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Array 101</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Arrays 101</a></li>
 </ul>
 
     </div>
@@ -356,7 +356,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Array 101</h1>
+    <h1>Arrays 101</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -366,12 +366,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#array-capacity-vs-length">Array capacity VS length</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#max-consecutive-ones">Max Consecutive Ones</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#squares-of-a-sorted-array">Squares of a Sorted Array</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#max-consecutive-ones">Max Consecutive Ones</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#squares-of-a-sorted-array">Squares of a Sorted Array</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#duplicate-zeros">Duplicate zeros</a></li>
 </ul>
             </nav>
         </div>
@@ -383,12 +381,10 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="array-101">
-<h1>Array 101<a class="headerlink" href="#array-101" title="Permalink to this heading">#</a></h1>
-<section id="array-capacity-vs-length">
-<h2>Array capacity VS length<a class="headerlink" href="#array-capacity-vs-length" title="Permalink to this heading">#</a></h2>
+  <section class="tex2jax_ignore mathjax_ignore" id="arrays-101">
+<h1>Arrays 101<a class="headerlink" href="#arrays-101" title="Permalink to this heading">#</a></h1>
 <section id="max-consecutive-ones">
-<h3>Max Consecutive Ones<a class="headerlink" href="#max-consecutive-ones" title="Permalink to this heading">#</a></h3>
+<h2>Max Consecutive Ones<a class="headerlink" href="#max-consecutive-ones" title="Permalink to this heading">#</a></h2>
 <p><a class="reference external" href="https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/">https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/</a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -451,7 +447,7 @@ document.write(`
 </ul>
 </section>
 <section id="find-numbers-with-even-number-of-digits">
-<h3>Find Numbers with Even Number of Digits<a class="headerlink" href="#find-numbers-with-even-number-of-digits" title="Permalink to this heading">#</a></h3>
+<h2>Find Numbers with Even Number of Digits<a class="headerlink" href="#find-numbers-with-even-number-of-digits" title="Permalink to this heading">#</a></h2>
 <p><a class="reference external" href="https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/">https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/</a></p>
 <p>My original code:</p>
 <div class="cell docutils container">
@@ -489,7 +485,7 @@ document.write(`
 </ul>
 </section>
 <section id="squares-of-a-sorted-array">
-<h3>Squares of a Sorted Array<a class="headerlink" href="#squares-of-a-sorted-array" title="Permalink to this heading">#</a></h3>
+<h2>Squares of a Sorted Array<a class="headerlink" href="#squares-of-a-sorted-array" title="Permalink to this heading">#</a></h2>
 <p><a class="reference external" href="https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3240/">https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3240/</a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -538,7 +534,75 @@ document.write(`
 <li><p>Time: <span class="math notranslate nohighlight">\(O(n)\)</span></p></li>
 <li><p>Space: <span class="math notranslate nohighlight">\(O(n)\)</span></p></li>
 </ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## we can also use python&#39;s in-built sorthing algorithm</span>
+<span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">sortedSquares</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+        <span class="n">squared_arr</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">]</span>
+        <span class="n">squared_arr</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">squared_arr</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Time and Space Complexity Analysis:</p>
+<ul class="simple">
+<li><p>Time: <span class="math notranslate nohighlight">\(O(n \log n)\)</span></p></li>
+<li><p>Space: <span class="math notranslate nohighlight">\(O(n)\)</span></p></li>
+</ul>
 </section>
+<section id="duplicate-zeros">
+<h2>Duplicate zeros<a class="headerlink" href="#duplicate-zeros" title="Permalink to this heading">#</a></h2>
+<p><a class="reference external" href="https://leetcode.com/problems/duplicate-zeros/description/">https://leetcode.com/problems/duplicate-zeros/description/</a></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">duplicateZeros</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">arr</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Do not return anything, modify arr in-place instead.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">length</span><span class="p">):</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">-</span> <span class="n">length</span>
+            <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">arr</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+            <span class="k">del</span> <span class="n">arr</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Time and Space Complexity Analysis:</p>
+<ul class="simple">
+<li><p>Time: <span class="math notranslate nohighlight">\(O(n^2)\)</span></p></li>
+<li><p>Space: <span class="math notranslate nohighlight">\(O(1)\)</span></p></li>
+</ul>
+<p>The above code can be improved a little bit. The second loop is unnecessary at all.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">duplicateZeros</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">arr</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Do not return anything, modify arr in-place instead.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">arr</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+                <span class="n">arr</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+                <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Time and Space Complexity Analysis:</p>
+<ul class="simple">
+<li><p>Time: <span class="math notranslate nohighlight">\(O(n^2)\)</span></p></li>
+<li><p>Space: <span class="math notranslate nohighlight">\(O(1)\)</span></p></li>
+</ul>
 </section>
 </section>
 
@@ -596,12 +660,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#array-capacity-vs-length">Array capacity VS length</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#max-consecutive-ones">Max Consecutive Ones</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#squares-of-a-sorted-array">Squares of a Sorted Array</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#max-consecutive-ones">Max Consecutive Ones</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#squares-of-a-sorted-array">Squares of a Sorted Array</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#duplicate-zeros">Duplicate zeros</a></li>
 </ul>
   </nav></div>
 
