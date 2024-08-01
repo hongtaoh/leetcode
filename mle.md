@@ -1,0 +1,6 @@
+- [作为MLE面试官的一点感想心得](https://www.1point3acres.com/bbs/thread-1078832-1-1.html)
+    - system design 很重要
+    - behavior question 考察 mentorship, leadership, cross-team collaboration 很重要。
+    - 刷题需求低，基本是高频前 50，而且都是 medium 和之下难度
+    - system design 决定是否要你，behavior 决定等级
+    - 做一些项目很重要

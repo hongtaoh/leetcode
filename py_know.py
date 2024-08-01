@@ -17,7 +17,9 @@ dic = {"a":1, "b":2}
 for key, value in dic.items():
     print(key, value)
 
-dic.get("c", default_value = 0)
+dic.get("c", 0) # 0 is the default value
+# note that you cannot use this: dic.get("c", default_value = 0)
+# because dict.get() does not take keyword argument
 
 """list
 """
@@ -67,6 +69,7 @@ b.index("c") == 0
 max(2, 1)
 abs(-10) == 10
 max([2, 9, 10])
+len(str(20)) == 2
 
 # [5, 4, 3, 2, 1, 0]
 # start, stop, step
