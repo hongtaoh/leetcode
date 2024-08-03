@@ -36,6 +36,9 @@
     - 2024-07-31 (2nd time), easy, but worth doing again. 
     - hint: use set. 
 17. https://leetcode.com/problems/valid-mountain-array/description/
+    - 2024-08-01 (2nd time), easy, but worth doing again. 
+    - hint: use two pointers. 
+18. 
 
 ## Want to:
 
