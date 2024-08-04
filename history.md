@@ -1,4 +1,4 @@
-## Done
+# Done
 1. https://leetcode.com/problems/root-equals-sum-of-children/
     - 2024-07-26 (2nd), easy
 2. https://leetcode.com/problems/invert-binary-tree/editorial/ (Premium)
@@ -15,7 +15,7 @@
 8. https://leetcode.com/problems/ransom-note/description/
     - 2024-07-27 (2nd), easy
 
-### Arrays
+## Arrays
 9. https://leetcode.com/problems/max-consecutive-ones/description/
     - 2024-07-27 (2nd), easy
 10. https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/
@@ -38,7 +38,16 @@
 17. https://leetcode.com/problems/valid-mountain-array/description/
     - 2024-08-01 (2nd time), easy, but worth doing again. 
     - hint: use two pointers. 
-18. 
+
+## Hash Tables
+- https://leetcode.com/problems/design-hashset/description/
+- https://leetcode.com/problems/design-hashmap/description/
+- https://leetcode.com/problems/contains-duplicate/description/
+- https://leetcode.com/problems/single-number/description/
+- https://leetcode.com/problems/intersection-of-two-arrays/description/
+
+### Haven't finished yet 
+- https://leetcode.com/problems/happy-number/description/
 
 ## Want to:
 
