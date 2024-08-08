@@ -74,3 +74,9 @@ len(str(20)) == 2
 # [5, 4, 3, 2, 1, 0]
 # start, stop, step
 range(5, -1, -1)
+
+"""set
+"""
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+set.intersection(set1, set2)

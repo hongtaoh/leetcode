@@ -45,9 +45,8 @@
 - https://leetcode.com/problems/contains-duplicate/description/
 - https://leetcode.com/problems/single-number/description/
 - https://leetcode.com/problems/intersection-of-two-arrays/description/
-
-### Haven't finished yet 
 - https://leetcode.com/problems/happy-number/description/
+
 
 ## Want to:
 
