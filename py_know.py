@@ -22,7 +22,7 @@ dic.get("c", 0) # 0 is the default value
 # because dict.get() does not take keyword argument
 
 # to remove an item, no matter whether the key exists or not
-dic.pop("c", None)
+dic.pop("c", None) 
 
 """list
 """
