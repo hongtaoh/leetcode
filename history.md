@@ -40,12 +40,21 @@
     - hint: use two pointers. 
 
 ## Hash Tables
-- https://leetcode.com/problems/design-hashset/description/
-- https://leetcode.com/problems/design-hashmap/description/
-- https://leetcode.com/problems/contains-duplicate/description/
-- https://leetcode.com/problems/single-number/description/
-- https://leetcode.com/problems/intersection-of-two-arrays/description/
-- https://leetcode.com/problems/happy-number/description/
+18. https://leetcode.com/problems/design-hashset/description/
+    - 2024-08-17 (2nd round). Worth doing again!
+19. https://leetcode.com/problems/design-hashmap/description/
+    - 2024-08-17 (2nd round), Worth doing again!
+20. https://leetcode.com/problems/contains-duplicate/description/
+21. https://leetcode.com/problems/single-number/description/
+22. https://leetcode.com/problems/intersection-of-two-arrays/description/
+23. https://leetcode.com/problems/happy-number/description/
+24. https://leetcode.com/problems/two-sum/description/
+25. https://leetcode.com/problems/isomorphic-strings/description/
+26. https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/
+27. https://leetcode.com/problems/first-unique-character-in-a-string/description/
+28. https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
+29. https://leetcode.com/problems/contains-duplicate-ii/description/
+30. https://leetcode.com/problems/group-anagrams/description/
 
 
 ## Want to:

@@ -21,6 +21,9 @@ dic.get("c", 0) # 0 is the default value
 # note that you cannot use this: dic.get("c", default_value = 0)
 # because dict.get() does not take keyword argument
 
+# to remove an item, no matter whether the key exists or not
+dic.pop("c", None)
+
 """list
 """
 # note that if you print(a.remove("a")), it will be None
@@ -79,5 +82,8 @@ range(5, -1, -1)
 """
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
+3 in set2 
 set.intersection(set1, set2)
 set1.add(9)
+set2.discard(2) # discard won't raise error if element is not present
+# but remove(2) will
